@@ -4,7 +4,7 @@ import com.google.domain.Customer;
 import com.google.service.impl.CustomerService;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
-//1111111
+
 public class CustomerAction extends ActionSupport {
     private CustomerService customerService;
 
