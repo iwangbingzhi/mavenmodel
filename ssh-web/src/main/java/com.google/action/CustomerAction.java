@@ -22,6 +22,5 @@ public class CustomerAction extends ActionSupport {
         Customer customer = customerService.findOne(custId);
         ActionContext.getContext().getValueStack().push(customer);
         return SUCCESS;
-
     }
 }
